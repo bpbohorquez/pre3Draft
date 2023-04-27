@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2 {
+    padding: 5px;
+}
+
+h3 {
+    margin-bottom: 5px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+#formularioCarrito, #carrito, #formDatos {
+    margin: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 700px;
+    border: grey solid 0.2px;
+}
